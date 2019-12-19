@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, 
+        rgba(157,213,111, 0.7),
+        rgba(40,164,180, 0.7)),
+        url(../images/hero.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+nav {
+    background-image: linear-gradient(to right, #333, #777);
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li.righty {
+    float: right;
+}
+li a {
+    display: block;
+    color: rgb(157,213,111);
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover, li a.active {
+    background-color: rgb(157,213,111);
+    color: #333;
+}
